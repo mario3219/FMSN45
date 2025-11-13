@@ -187,4 +187,3 @@ fprintf('\nThe variance of original signal is                           %5.2f.\n
 fprintf('The variance explained by the input is                       %5.2f.\n', var(u)')
 fprintf('Using the estimated model, the input explains                %5.2f.\n', var(tilde_ut)')
 fprintf('Estimated using the true model structure, the input explains %5.2f.\n', var(t_ut)')
-
